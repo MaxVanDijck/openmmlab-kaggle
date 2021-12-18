@@ -10,3 +10,4 @@ Simply run the shell script using `bash`, the `-r` arg can be used to remove the
 ```
 bash make_dataset.sh -r
 ```
+**OR** use the available kaggle upload [here](https://www.kaggle.com/maxvandijck/openmmlab-essential-repositories).
