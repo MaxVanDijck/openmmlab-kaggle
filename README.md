@@ -5,6 +5,17 @@ Shell script for cloning and compressing commonly used computer vision repositor
 
 Feel free to open a PR if you find yourself using a repo which isn't included in the script! :sparkles:
 
+## Kaggle Checklist
+Following openmmlab repos installs have been tested on a kaggle offline notebook:
+- [ ] MMClassification
+- [ ] MMDetection
+- [ ] MMSegmentation
+- [ ] MMPose
+- [ ] MMOCR
+- [ ] MMGeneration
+- [ ] MMFewShot
+- [ ] MMTrack
+
 ## Usage
 Simply run the shell script using `bash`, the `-r` arg can be used to remove the folder containing the repositories after compression if desired.
 ```
