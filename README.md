@@ -7,8 +7,9 @@ Feel free to open a PR if you find yourself using a repo which isn't included in
 
 ## Kaggle Checklist
 Following openmmlab repos installs have been tested on a kaggle offline notebook:
+- [x] MMCV
 - [ ] MMClassification
-- [ ] MMDetection
+- [x] MMDetection
 - [ ] MMSegmentation
 - [ ] MMPose
 - [ ] MMOCR
