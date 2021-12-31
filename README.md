@@ -6,9 +6,10 @@ Shell script for cloning and compressing commonly used computer vision repositor
 Feel free to open a PR if you find yourself using a repo which isn't included in the script! :sparkles:
 
 ## Kaggle Checklist
+See this [kaggle notebook](https://www.kaggle.com/maxvandijck/openmmlab-offline-installation) for how to install.
 Following openmmlab repos installs have been tested on a kaggle offline notebook:
 - [x] MMCV
-- [ ] MMClassification
+- [x] MMClassification
 - [x] MMDetection
 - [ ] MMSegmentation
 - [ ] MMPose
