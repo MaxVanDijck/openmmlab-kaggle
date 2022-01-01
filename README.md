@@ -16,7 +16,7 @@ Following openmmlab repos installs have been tested on a kaggle offline notebook
 - [ ] MMOCR
 - [ ] MMGeneration
 - [ ] MMFewShot
-- [ ] MMTrack
+- [x] MMTracking
 
 ## Usage
 Simply run the shell script using `bash`, the `-r` arg can be used to remove the folder containing the repositories after compression if desired.

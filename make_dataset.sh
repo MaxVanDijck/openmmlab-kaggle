@@ -34,9 +34,9 @@ git clone https://github.com/open-mmlab/mmgeneration.git openmmlab-repos/mmgener
 # mmfewshot
 mkdir openmmlab-repos/mmfewshot
 git clone https://github.com/open-mmlab/mmfewshot.git openmmlab-repos/mmfewshot
-# mmtrack
-mkdir openmmlab-repos/mmtrack
-git clone https://github.com/open-mmlab/mmtracking.git openmmlab-repos/mmtrack
+# mmtracking
+mkdir openmmlab-repos/mmtracking
+git clone https://github.com/open-mmlab/mmtracking.git openmmlab-repos/mmtracking
 
 # download all requirements
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmcv/requirements.txt
@@ -47,7 +47,10 @@ pip download -d openmmlab-repos/src -r openmmlab-repos/mmpose/requirements.txt
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmocr/requirements.txt
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmgeneration/requirements.txt
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmfewshot/requirements.txt
-pip download -d openmmlab-repos/src -r openmmlab-repos/mmtrack/requirements.txt
+pip download -d openmmlab-repos/src -r openmmlab-repos/mmtracking/requirements.txt
+
+# remaining requirements
+wget https://files.pythonhosted.org/packages/22/51/52442c59db26637681148c21f8984eed58c9db67053a0a4783a047010c98/importlib_metadata-4.2.0-py3-none-any.whl -P openmmlab-repos/src
 
 # create tar.gz file
 tar -czvf openmmlab-repos.tar.gz openmmlab-repos
