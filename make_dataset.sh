@@ -12,7 +12,7 @@ wget https://download.pytorch.org/whl/cu111/torch-1.9.0%2Bcu111-cp37-cp37m-linux
 # mmcv
 mkdir openmmlab-repos/mmcv
 git clone https://github.com/open-mmlab/mmcv.git openmmlab-repos/mmcv
-wget https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/mmcv_full-1.4.2-cp37-cp37m-manylinux1_x86_64.whl -P openmmlab-repos/src
+wget https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/mmcv_full-1.4.6-cp37-cp37m-manylinux1_x86_64.whl -P openmmlab-repos/src
 # mmclassification
 mkdir openmmlab-repos/mmclassification
 git clone https://github.com/open-mmlab/mmclassification.git openmmlab-repos/mmclassification
