@@ -11,7 +11,7 @@ Following openmmlab repos installs have been tested on a kaggle offline notebook
 - [x] MMCV
 - [x] MMClassification
 - [x] MMDetection
-- [ ] MMSegmentation
+- [x] MMSegmentation
 - [ ] MMPose
 - [ ] MMOCR
 - [ ] MMGeneration
