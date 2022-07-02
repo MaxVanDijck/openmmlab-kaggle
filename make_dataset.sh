@@ -6,13 +6,10 @@
 mkdir openmmlab-repos
 mkdir openmmlab-repos/src
 
-# pytorch for kaggle installation
-wget https://download.pytorch.org/whl/cu111/torch-1.9.0%2Bcu111-cp37-cp37m-linux_x86_64.whl -P openmmlab-repos/src
-
 # mmcv
 mkdir openmmlab-repos/mmcv
 git clone https://github.com/open-mmlab/mmcv.git openmmlab-repos/mmcv
-wget https://download.openmmlab.com/mmcv/dist/cu111/torch1.9.0/mmcv_full-1.4.6-cp37-cp37m-manylinux1_x86_64.whl -P openmmlab-repos/src
+wget https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/mmcv_full-1.5.3-cp37-cp37m-manylinux1_x86_64.whl -P openmmlab-repos/src
 # mmclassification
 mkdir openmmlab-repos/mmclassification
 git clone https://github.com/open-mmlab/mmclassification.git openmmlab-repos/mmclassification
@@ -48,9 +45,6 @@ pip download -d openmmlab-repos/src -r openmmlab-repos/mmocr/requirements.txt
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmgeneration/requirements.txt
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmfewshot/requirements.txt
 pip download -d openmmlab-repos/src -r openmmlab-repos/mmtracking/requirements.txt
-
-# remaining requirements
-wget https://files.pythonhosted.org/packages/22/51/52442c59db26637681148c21f8984eed58c9db67053a0a4783a047010c98/importlib_metadata-4.2.0-py3-none-any.whl -P openmmlab-repos/src
 
 # create tar.gz file
 tar -czvf openmmlab-repos.tar.gz openmmlab-repos
